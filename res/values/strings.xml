@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdvanceSlider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="list">
+        <item>White</item>
+        <item>Red</item>
+        <item>Black</item>
+        <item>Green</item>
+        <item>Blue</item>
+     
+    </string-array>
+<string name="drawerOpen">Drawer Open</string>
+<string name="drawerClose">Drawer Close</string>
+    
+</resources>

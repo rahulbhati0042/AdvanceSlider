@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:content="@+id/content"
+        android:gravity="center_horizontal"
+        android:handle="@+id/handle"
+        
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/handle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/holo_red_light"
+            android:padding="20dp"
+            android:text="Colors(Slide Up)"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white" />
+
+        <ListView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:entries="@array/list" >
+        </ListView>
+    </SlidingDrawer>
+
+</RelativeLayout>
