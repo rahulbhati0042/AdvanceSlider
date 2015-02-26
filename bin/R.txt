@@ -335,6 +335,12 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020030
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020031
 int drawable abc_textfield_search_material 0x7f020032
 int drawable ic_launcher 0x7f020033
+int drawable screen1 0x7f020034
+int drawable screen2 0x7f020035
+int drawable screen3 0x7f020036
+int drawable screen4 0x7f020037
+int drawable screen5 0x7f020038
+int drawable screen6 0x7f020039
 int id action_bar 0x7f050033
 int id action_bar_activity_content 0x7f05001a
 int id action_bar_container 0x7f050032
